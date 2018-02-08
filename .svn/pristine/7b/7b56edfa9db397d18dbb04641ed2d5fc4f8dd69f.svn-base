@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="800,600" mininfo="700,500" sizebox="5,5,5,5" caption="0,0,0,40" showshadow="true" shadowimage="image\shadow.png" shadowcorner="5,3,5,7">
+  <Font id="0" name="微软雅黑" size="12" bold="false" default="true" />
+  <Font id="1" name="微软雅黑" size="14" bold="false" />
+  <Default name="VScrollBar" value="width=&quot;6&quot; thumbnormalimage=&quot;file='image\scroll.png' source='0,0,6,6'&quot; bknormalimage=&quot;file='image\scroll.png' source='0,6,6,12'&quot; button1normalimage=&quot;file='image\scroll.png' source='0,12,6,18'&quot; button2normalimage=&quot;file='image\scroll.png' source='0,12,6,18'&quot; " />
+
+  <VerticalLayout bkcolor="#FFFFFFFF">
+    <!--标题栏-->
+    <HorizontalLayout height="40" bkcolor="#FFf5f5f5">
+      <Control />
+      <Button name="closebtn" width="32" height="32" padding="4,4,4,4" normalimage="file='image\btn_close.png' source='0,0,32,32'" hotimage="file='image\btn_close.png' source='32,0,64,32'" pushedimage="file='image\btn_close.png' source='64,0,96,32'" />
+    </HorizontalLayout>
+    <Control height="1" bkcolor="#FFeaeaea" />
+    <!--正文-->
+    <Edit name="edit_path" height="35" padding="20,10,20,10" textpadding="10,0,10,0" textcolor="#FF666666" bordercolor="#FFeaeaea" bordersize="1" readonly="true" />
+    <HorizontalLayout height="35" bkcolor="#FFf5f5f5" padding="20,0,20,0">
+      <Label height="35" text="名称" textcolor="#FF4c4c4c" font="1" valign="vcenter" textpadding="10,0,0,0" />
+      <Control width="1" height="19" padding="0,8,0,8" bkcolor="#FFe0e0e0" />
+      <Label width="100" height="35" text="大小" textcolor="#FF4c4c4c" font="1" valign="vcenter" textpadding="10,0,0,0" />
+      <Control width="1" height="19" padding="0,8,0,8" bkcolor="#FFe0e0e0" />
+      <Label width="130" height="35" text="修改日期" textcolor="#FF4c4c4c" font="1" valign="vcenter" textpadding="10,0,0,0" />
+      <Control width="1" height="19" padding="0,8,0,8" bkcolor="#FFe0e0e0" />
+      <Label width="100" height="35" text="文件版本" textcolor="#FF4c4c4c" font="1" valign="vcenter" textpadding="10,0,0,0" />
+      <Control width="1" height="19" padding="0,8,0,8" bkcolor="#FFe0e0e0" />
+      <Label height="35" text="签名" textcolor="#FF4c4c4c" font="1" valign="vcenter" textpadding="10,0,0,0" />
+    </HorizontalLayout>
+    <List name="list_files" vscrollbar="true" header="hidden" itemheight="35" itemselectedbkcolor="#FFfafafa" itemhotbkcolor="#FFfafafa" bkcolor="#FFFFFFFF" padding="20,0,20,10" />
+  </VerticalLayout>
+</Window>

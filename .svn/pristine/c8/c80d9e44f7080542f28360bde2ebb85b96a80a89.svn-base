@@ -1,0 +1,27 @@
+代码注释格式:
+///<summary>函数注释</summary>
+///<param name="参数名称0">参数0说明</param>
+///<param name="参数名称0">参数1说明</param>
+///<returns>返回分割后的字符串集合</returns>
+///<example>使用实例</example>
+vector<String> Split(IN TCHAR separator,IN StringSplitOptions options=SSO_None,IN size_type limit = npos) const;
+
+
+新建工程引用说明:
+1.头文件引用:$(RYFramework)\Interfaces
+2.库文件引用:
+  vs2008:$(RYFramework)\Bin\vc9\$(PlatformName)
+  vs2010:$(RYFramework)\Bin\vc10\$(Platform)
+  vs2015:$(RYFramework)\Bin\vc14\$(Platform)
+
+PS.目前
+$(RYFramework)=F:\仁优网络\RYLibraries\RYFramework
+
+
+源代码stdafx.h引入库:
+#include <Core.hpp>
+#include <System.hpp>
+#include <System.Net.hpp>
+#include <System.Xml.hpp>
+#include <System.Json.hpp>
+#include <System.Security.hpp>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{ecbad9a0-6ab1-4b62-989d-0137de95b0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal">
+      <UniqueIdentifier>{3a889cfb-f743-4dc5-b8c7-8bd806160440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity">
+      <UniqueIdentifier>{4ea9166b-c33c-4cbc-b867-22acb8c94955}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\core\SqliteDB.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\SQLStatement.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\internal\stdafx.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\entity\SQLiteDataReader.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\entity\TableStructure.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\core\SqliteDB.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\SQLStatement.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\internal\stdafx.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\internal\targetver.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\entity\SQLiteDataReader.hpp">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\entity\TableStructure.hpp">
+      <Filter>entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

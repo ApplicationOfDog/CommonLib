@@ -1,0 +1,69 @@
+﻿Build started 2017/9/11 8:52:06.
+     1>Project "E:\CommonLib\AmLog\AmLog\AmLog.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\AmLog.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\AmLog.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /I..\..\POCO\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _DLL /D POCO_STATIC /D AMLOG_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AmLog.cpp
+         AmLog.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CommonLib\AmLog\Release\DALog.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\POCO\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DALog.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\CommonLib\AmLog\Release\DALog.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CommonLib\AmLog\Release\DALog.lib" /MACHINE:X86 /DLL Release\AmLog.obj
+            Creating library E:\CommonLib\AmLog\Release\DALog.lib and object E:\CommonLib\AmLog\Release\DALog.exp
+         Generating code
+         Finished generating code
+     1>log4cplusS.lib(pointer.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(pointer.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(fileappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(fileappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(patternlayout.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(patternlayout.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(loggingmacros.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(loggingmacros.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(logger.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(logger.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(global-init.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(global-init.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(syncprims.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(syncprims.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(lockfile.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(lockfile.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(timehelper.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(timehelper.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(property.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(property.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(fileinfo.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(fileinfo.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(stringhelper.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(stringhelper.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(loglog.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(loglog.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(env.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(env.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(appender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(appender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(objectregistry.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(objectregistry.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(socket-win32.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(socket-win32.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(loglevel.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(loglevel.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(ndc.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(ndc.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(layout.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(layout.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(threads.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(threads.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(loggingevent.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(loggingevent.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(mdc.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(mdc.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(appenderattachableimpl.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(appenderattachableimpl.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(loggerimpl.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(loggerimpl.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(snprintf.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(snprintf.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(hierarchy.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(hierarchy.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(factory.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(factory.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(consoleappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(consoleappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(filter.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(filter.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(socket.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(socket.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(rootlogger.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(rootlogger.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(win32debugappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(win32debugappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(nteventlogappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(nteventlogappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(nullappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(nullappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(syslogappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(syslogappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(asyncappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(asyncappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(win32consoleappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(win32consoleappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(log4judpappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(log4judpappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(socketappender.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(socketappender.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(connectorthread.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(connectorthread.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(queue.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(queue.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(socketbuffer.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(socketbuffer.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+     1>log4cplusS.lib(sleep.obj) : warning LNK4099: PDB 'log4cpluss.c.pdb' was not found with 'log4cplusS.lib(sleep.obj)' or at 'E:\CommonLib\AmLog\Release\log4cpluss.c.pdb'; linking object as if no debug info
+         AmLog.vcxproj -> E:\CommonLib\AmLog\Release\DALog.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\CommonLib\AmLog\Release\DALog.dll;#2" /manifest Release\DALog.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\AmLog.unsuccessfulbuild".
+         Touching "Release\AmLog.lastbuildstate".
+     1>Done Building Project "E:\CommonLib\AmLog\AmLog\AmLog.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.73

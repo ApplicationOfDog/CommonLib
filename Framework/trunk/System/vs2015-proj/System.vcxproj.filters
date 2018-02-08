@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="internal">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="diagnostics">
+      <UniqueIdentifier>{d3f77f75-fea0-4572-b7ac-c3fbe8cd5bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="diagnostics\Helper">
+      <UniqueIdentifier>{1e3b0e90-94c3-48c3-844c-15ef67aa9da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{8b09cf1f-706f-45ea-865a-051b7a77a96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="communication">
+      <UniqueIdentifier>{fce64c6c-4219-40f4-b672-4ffce6e2b5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task">
+      <UniqueIdentifier>{fa2593ac-91bb-4974-948e-8172c506a41e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\internal\export.def">
+      <Filter>internal</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\internal\stdafx.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Diagnostics\Machine.cpp">
+      <Filter>diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Diagnostics\Helper\MachineHelper.cpp">
+      <Filter>diagnostics\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Net\Dns.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Net\NetUseConnection.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Communication\DIOC.cpp">
+      <Filter>communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Diagnostics\MiniDump.cpp">
+      <Filter>diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Diagnostics\Runtime.cpp">
+      <Filter>diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Task\AsynTask.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\internal\stdafx.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\internal\targetver.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Diagnostics\Machine.hpp">
+      <Filter>diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Diagnostics\Helper\MachineHelper.hpp">
+      <Filter>diagnostics\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\Dns.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\NetUseConnection.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Communication\DIOC.h">
+      <Filter>communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Diagnostics\MiniDump.hpp">
+      <Filter>diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Diagnostics\Runtime.hpp">
+      <Filter>diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Task\AsynTask.hpp">
+      <Filter>task</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

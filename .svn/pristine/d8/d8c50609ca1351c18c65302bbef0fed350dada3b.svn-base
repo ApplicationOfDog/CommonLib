@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{8e93bd94-6d99-41b0-8348-fc310cd4d9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal">
+      <UniqueIdentifier>{c81853ca-7459-495a-84aa-19642aaff61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql">
+      <UniqueIdentifier>{7b7045f9-b4be-4a12-9a85-3a04f1c2c41b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql\inc">
+      <UniqueIdentifier>{9a9d0806-c0cc-467e-9514-9de6b0bd7180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite">
+      <UniqueIdentifier>{085e6ad2-ee69-4df3-afa8-676e7670d1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite\inc">
+      <UniqueIdentifier>{30a95c9c-cacf-4b3f-8c82-e60cb9b25546}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\internal\stdafx.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\internal\targetver.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\inc\my_alloc.h">
+      <Filter>mysql\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\inc\my_list.h">
+      <Filter>mysql\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\inc\mysql.h">
+      <Filter>mysql\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\inc\mysql_com.h">
+      <Filter>mysql\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\inc\mysql_time.h">
+      <Filter>mysql\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\inc\mysql_version.h">
+      <Filter>mysql\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\inc\typelib.h">
+      <Filter>mysql\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\MysqlDataReader.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\MysqlDB.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\MysqlDll.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\MysqlStatement.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlite\inc\sqlite3.h">
+      <Filter>sqlite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlite\SqliteDataReader.hpp">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlite\SqliteDB.hpp">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlite\SqliteStatement.hpp">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\IDataReader.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\IDB.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\ISqlStatement.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\TableStructure.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\internal\stdafx.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mysql\MysqlDataReader.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mysql\MysqlDB.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mysql\MysqlDll.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mysql\MysqlStatement.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sqlite\SqliteDataReader.cpp">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sqlite\SqliteDB.cpp">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sqlite\SqliteStatement.cpp">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\IDataReader.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\IDB.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\ISqlStatement.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\TableStructure.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

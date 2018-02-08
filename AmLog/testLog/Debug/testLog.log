@@ -1,0 +1,9 @@
+﻿Build started 2017/9/11 8:51:53.
+     1>Project "E:\CommonLib\AmLog\testLog\testLog.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\testLog.lastbuildstate".
+     1>Done Building Project "E:\CommonLib\AmLog\testLog\testLog.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.00

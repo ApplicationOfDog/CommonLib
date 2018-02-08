@@ -1,0 +1,26 @@
+﻿Build started 2017/11/21 16:42:24.
+     1>Project "E:\CommonLib\jsoncpp\lib_json.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\lib_json.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\lib_json\json_reader.cpp src\lib_json\json_value.cpp src\lib_json\json_writer.cpp
+         json_reader.cpp
+         json_value.cpp
+         json_writer.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\CommonLib\jsoncpp\Release\lib_json.lib" /NOLOGO /LTCG Release\json_reader.obj
+         Release\json_value.obj
+         Release\json_writer.obj
+         lib_json.vcxproj -> E:\CommonLib\jsoncpp\Release\lib_json.lib
+       PostBuildEvent:
+         Copy /B /y E:\CommonLib\jsoncpp\Release\lib_json.lib .\lib\Release\lib_json.lib
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         Deleting file "Release\lib_json.unsuccessfulbuild".
+         Touching "Release\lib_json.lastbuildstate".
+     1>Done Building Project "E:\CommonLib\jsoncpp\lib_json.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02

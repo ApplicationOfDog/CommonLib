@@ -1,0 +1,37 @@
+// link with wininet.lib
+#pragma once
+
+#include <tchar.h>
+#include <windows.h>
+#include <wininet.h>
+#pragma comment(lib,"wininet.lib")
+/*
+custom errorcodes:
+-1: bad url...
+*/
+
+class CAmHttpSocket
+{
+public:
+	int GetPageStatusCode(); //get the HTTP statuscode for the last received page
+	TCHAR* GetHeaders(const TCHAR *url); //return a pointer th the headers from an url
+	CAmHttpSocket();
+	~CAmHttpSocket();
+	char* GetPage(const TCHAR *url, bool Post = false, const char *PostData = NULL, int PostDataLength = -1);
+	//get a page, if post is false, HTTP GET is used othervise HTTP POST is used. 
+	//if PostDataLength is -1 the data must be NULL terminated...
+protected:
+	bool PostUrl(const TCHAR *url, const char *PostData, int PostDataLength = -1);
+	//open a page using http post
+	TCHAR* GetHeaderLine(TCHAR *s); //get a specific line from the headers
+	bool OpenUrl(const TCHAR *url); //open a page using http get
+	HINTERNET hIO, hIS, hCO;
+	char *ReceivedData; //the internal databuffer
+	TCHAR *Headers; //the internal headerbuffer
+	int LastError; //internal statuscode...
+};
+
+char* strustr(char *source, char *s);
+wchar_t* wcsustr(wchar_t *source, wchar_t *s);
+int GBK2UTF8(char *szGbk, char *szUtf8, int Len);
+int UTF82GBK(char *szUtf8, char *szGbk, int Len);

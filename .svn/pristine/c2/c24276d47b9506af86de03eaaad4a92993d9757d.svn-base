@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <ListContainerElement name="list_item">
+    <HorizontalLayout>
+      <Icon name="icon_file" pos="2,9" float="true" width="16" height="16" iconsize="-1" />
+      <Label name="label_filename" height="35" textcolor="#FF4c4c4c" font="1" valign="vcenter" textpadding="20,0,0,0" />
+      <Label name="label_filesize" width="100" height="35" textcolor="#FF4c4c4c" font="1" align="right" valign="vcenter" textpadding="0,0,5,0" />
+      <Label name="label_lasttime" width="130" height="35" textcolor="#FF4c4c4c" font="1" align="center" valign="vcenter" />
+      <Label name="label_version" width="100" height="35" textcolor="#FF4c4c4c" font="1" valign="vcenter" textpadding="5,0,0,0" />
+      <Label name="label_cert" height="35" textcolor="#FF4c4c4c" font="1" valign="vcenter" textpadding="5,0,0,0" />
+    </HorizontalLayout>
+  </ListContainerElement>
+</Root>

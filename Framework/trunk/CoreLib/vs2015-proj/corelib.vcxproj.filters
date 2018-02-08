@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="internal">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{89b0374f-fce9-43cf-85c2-97b283f3eaf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Helper">
+      <UniqueIdentifier>{5aae26cf-354c-408e-a262-19d7aa49afc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{9ab29e3b-30a1-4852-8b84-5b9f0dfb3b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io\Helper">
+      <UniqueIdentifier>{dc90c7c3-ff71-492e-ae10-7223894e37b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pattern">
+      <UniqueIdentifier>{a4ca62d9-d499-4709-98a1-054ac96c9e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text">
+      <UniqueIdentifier>{4baff080-f4b1-4e63-a6f9-eef0c54f1787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text\Helper">
+      <UniqueIdentifier>{a08fe430-628a-4e77-93d9-73552d3cae61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="os">
+      <UniqueIdentifier>{3d6aeecd-5de3-44a2-b815-fd031f74e0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{a34a0fe4-ea40-443c-bc26-69128c48d050}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\internal\export.def">
+      <Filter>internal</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\internal\stdafx.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Char.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Console.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Convert.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\DateTime.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Environment.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\String.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\TimeSpan.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Helper\Com.cpp">
+      <Filter>core\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Helper\StringHelper.cpp">
+      <Filter>core\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IO\Debuger.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IO\Directory.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IO\File.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IO\Path.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IO\TextLog.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IO\TimeLog.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IO\Helper\LogHelper.cpp">
+      <Filter>io\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pattern\IError.cpp">
+      <Filter>pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Text\StringBuilder.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Text\Helper\StringBuilderHelper.cpp">
+      <Filter>text\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\Memory.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pattern\Reflect.cpp">
+      <Filter>pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\internal\stdafx.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\internal\targetver.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Char.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Com.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Console.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Const.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Convert.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\DateTime.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Environment.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\String.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\TimeSpan.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Helper\CoreTypes.hpp">
+      <Filter>core\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Helper\StringHelper.hpp">
+      <Filter>core\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IO\Debuger.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IO\Directory.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IO\File.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IO\Path.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IO\TextLog.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IO\TimeLog.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IO\Helper\IOTypes.hpp">
+      <Filter>io\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IO\Helper\LogHelper.hpp">
+      <Filter>io\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pattern\IError.hpp">
+      <Filter>pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pattern\ILock.hpp">
+      <Filter>pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pattern\Singleton.hpp">
+      <Filter>pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Text\StringBuilder.hpp">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Text\Helper\StringBuilderHelper.hpp">
+      <Filter>text\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS\Platform.hpp">
+      <Filter>os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\Memory.hpp">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pattern\Reflect.hpp">
+      <Filter>pattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

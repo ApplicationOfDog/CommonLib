@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="256,98" mininfo="256,98" maxinfo="256,98" layeredimage="true">
+  <Font id="0" name="微软雅黑" size="12" bold="false" /> 
+  <Font id="1" name="微软雅黑" size="14" bold="false" />
+  <Font id="2" name="微软雅黑" size="16" bold="false" /> 
+  
+	<VerticalLayout bkimage="res='2000' restype='png'" width="256" height="98">
+		<Button name="closeBtn" float="true" width="12" height="12" pos="235,9,247,21" bkcolor="#00FF0000" />
+		<Button name="enterBtn" float="true" width="71" height="20" pos="176,65,247,85" bkcolor="#00FF0000" />
+	</VerticalLayout>
+</Window>

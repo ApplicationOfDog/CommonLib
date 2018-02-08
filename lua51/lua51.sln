@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua51", "lua51\lua51.vcxproj", "{C36DBD3C-AEEB-41D5-944F-8648AD3F6846}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luaTest", "luaTest\luaTest.vcxproj", "{952E5907-7880-4A22-A553-5E1E9A7C4A44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C36DBD3C-AEEB-41D5-944F-8648AD3F6846}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C36DBD3C-AEEB-41D5-944F-8648AD3F6846}.Debug|Win32.Build.0 = Debug|Win32
+		{C36DBD3C-AEEB-41D5-944F-8648AD3F6846}.Release|Win32.ActiveCfg = Release|Win32
+		{C36DBD3C-AEEB-41D5-944F-8648AD3F6846}.Release|Win32.Build.0 = Release|Win32
+		{952E5907-7880-4A22-A553-5E1E9A7C4A44}.Debug|Win32.ActiveCfg = Debug|Win32
+		{952E5907-7880-4A22-A553-5E1E9A7C4A44}.Debug|Win32.Build.0 = Debug|Win32
+		{952E5907-7880-4A22-A553-5E1E9A7C4A44}.Release|Win32.ActiveCfg = Release|Win32
+		{952E5907-7880-4A22-A553-5E1E9A7C4A44}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

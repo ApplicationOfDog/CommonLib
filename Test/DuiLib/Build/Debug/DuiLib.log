@@ -1,0 +1,106 @@
+﻿Build started 2017/10/16 10:07:56.
+     1>Project "E:\CommonLib\Test\DuiLib\DuiLib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Build\Debug\DuiLib.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       InitializeBuildStatus:
+         Creating ".\Build\Debug\DuiLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Build\Debug/DuiLib.pch" /Fo".\Build\Debug\\" /Fd".\Build\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Build\Debug/DuiLib.pch" /Fo".\Build\Debug\\" /Fd".\Build\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Control\UIComboBox.cpp Control\UIFlash.cpp Control\UIMenu.cpp UIlib.cpp Utils\UIDelegate.cpp Utils\UIShadow.cpp Utils\Utils.cpp Utils\WinImplBase.cpp Core\UIBase.cpp Core\UIContainer.cpp Core\UIControl.cpp Core\UIDlgBuilder.cpp Core\UIManager.cpp Core\UIMarkup.cpp Core\UIRender.cpp Layout\UIChildLayout.cpp Layout\UIHorizontalLayout.cpp Layout\UITabLayout.cpp Layout\UITileLayout.cpp Layout\UIVerticalLayout.cpp Control\UIActiveX.cpp Control\UIButton.cpp Control\UICheckBox.cpp Control\UICombo.cpp Control\UIDateTime.cpp Control\UIEdit.cpp Control\UIGifAnim.cpp Control\UILabel.cpp Control\UIList.cpp Control\UIOption.cpp Control\UIProgress.cpp Control\UIRichEdit.cpp Control\UIScrollBar.cpp Control\UISlider.cpp Control\UIText.cpp Control\UITreeView.cpp Control\UIWebBrowser.cpp
+         UIWebBrowser.cpp
+         UITreeView.cpp
+     1>Control\UITreeView.cpp(263): warning C4800: 'long' : forcing value to bool 'true' or 'false' (performance warning)
+         UIText.cpp
+         UISlider.cpp
+         UIScrollBar.cpp
+         UIRichEdit.cpp
+         UIProgress.cpp
+         UIOption.cpp
+         UIList.cpp
+         UILabel.cpp
+         UIGifAnim.cpp
+         UIEdit.cpp
+         UIDateTime.cpp
+         UICombo.cpp
+         UICheckBox.cpp
+         UIButton.cpp
+         UIActiveX.cpp
+         UIVerticalLayout.cpp
+         UITileLayout.cpp
+         UITabLayout.cpp
+         Generating Code...
+         Compiling...
+         UIHorizontalLayout.cpp
+         UIChildLayout.cpp
+         UIRender.cpp
+         UIMarkup.cpp
+         UIManager.cpp
+         UIDlgBuilder.cpp
+         UIControl.cpp
+         UIContainer.cpp
+         UIBase.cpp
+         WinImplBase.cpp
+         Utils.cpp
+         UIShadow.cpp
+         UIDelegate.cpp
+         UIlib.cpp
+         UIMenu.cpp
+         UIFlash.cpp
+         UIComboBox.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Build\Debug\\" /Fd".\Build\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Utils\stb_image.c
+         stb_image.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Build\Debug\\" /Fd".\Build\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Utils\XUnzip.cpp
+         XUnzip.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Lib\DuiLib-md.lib" /NOLOGO .\Build\Debug\UIComboBox.obj
+         .\Build\Debug\UIFlash.obj
+         .\Build\Debug\UIMenu.obj
+         .\Build\Debug\StdAfx.obj
+         .\Build\Debug\UIlib.obj
+         .\Build\Debug\stb_image.obj
+         .\Build\Debug\UIDelegate.obj
+         .\Build\Debug\UIShadow.obj
+         .\Build\Debug\Utils.obj
+         .\Build\Debug\WinImplBase.obj
+         .\Build\Debug\XUnzip.obj
+         .\Build\Debug\UIBase.obj
+         .\Build\Debug\UIContainer.obj
+         .\Build\Debug\UIControl.obj
+         .\Build\Debug\UIDlgBuilder.obj
+         .\Build\Debug\UIManager.obj
+         .\Build\Debug\UIMarkup.obj
+         .\Build\Debug\UIRender.obj
+         .\Build\Debug\UIChildLayout.obj
+         .\Build\Debug\UIHorizontalLayout.obj
+         .\Build\Debug\UITabLayout.obj
+         .\Build\Debug\UITileLayout.obj
+         .\Build\Debug\UIVerticalLayout.obj
+         .\Build\Debug\UIActiveX.obj
+         .\Build\Debug\UIButton.obj
+         .\Build\Debug\UICheckBox.obj
+         .\Build\Debug\UICombo.obj
+         .\Build\Debug\UIDateTime.obj
+         .\Build\Debug\UIEdit.obj
+         .\Build\Debug\UIGifAnim.obj
+         .\Build\Debug\UILabel.obj
+         .\Build\Debug\UIList.obj
+         .\Build\Debug\UIOption.obj
+         .\Build\Debug\UIProgress.obj
+         .\Build\Debug\UIRichEdit.obj
+         .\Build\Debug\UIScrollBar.obj
+         .\Build\Debug\UISlider.obj
+         .\Build\Debug\UIText.obj
+         .\Build\Debug\UITreeView.obj
+         .\Build\Debug\UIWebBrowser.obj
+         DuiLib.vcxproj -> E:\CommonLib\Test\DuiLib\.\Lib\DuiLib-md.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Build\Debug\DuiLib.unsuccessfulbuild".
+         Touching ".\Build\Debug\DuiLib.lastbuildstate".
+     1>Done Building Project "E:\CommonLib\Test\DuiLib\DuiLib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05
